@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>김원희 포트폴리오</title>
+    <!-- 모바일에서 화면배율을 디바이스 크기 기준으로 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 호환성 문제를 어느정도 해결 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- 구글 폰트 불러오기 -->
+    <!-- rotobo(400/700/900), notosanskr(400/600/900) -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- 폰트어썸 불러오기 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <!-- 제이쿼리 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 유용한 링크 -->
+    <!-- cdnsj : https://cdnjs.com/ -->
+    <!-- 폰트어썸 아이콘 리스트 : https://fontawesome.com/icons?d=gallery&m=free -->
+
+    <!-- 모바일 탑바 시작 -->
+    <div class="mobile-top-bar visible-on-sm-down flex flex-jc-sb">
+        <a href="#" class="logo flex flex-ai-c">
+            <img src="./img/bi.png" alt="">
+        </a>
+
+        <a class="btn-toggle-menu-box-1 flex-as-c">
+
+        </a>
+
+        <nav class="menu-box-1">
+            <ul>
+                <li>
+                    <a>회사소개</a>
+                    <ul>
+                        <li>
+                            <a>회사개요</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a>비즈니스</a>
+                    <ul>
+                        <li>
+                            <a>
+                                개인금융 서비스</a>
+                        </li>
+                        <li>
+                            <a>기업금융 서비스</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a>경영정보</a>
+                    <ul>
+                        <li>
+                            <a>정기보고서</a>
+                        </li>
+                        <li>
+                            <a>공시정보</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a>고객센터</a>
+                    <ul>
+                        <li>
+                            <a>소비자보호포털</a>
+                        </li>
+                        <li>
+                            <a>계좌개설안내</a>
+                        </li>
+                        <li>
+                            <a>예탁금이용안내</a>
+                        </li>
+                        <li>
+                            <a>기타업무안내</a>
+                        </li>
+                        <li>
+                            <a>고객유의사항</a>
+                        </li>
+                        <li>
+                            <a>약관/서식</a>
+                        </li>
+                        <li>
+                            <a>상품공지</a>
+                        </li>
+                        <li>
+                            <a>공지사항</a>
+                        </li>
+                        <li>
+                            <a>FAQ</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <a>채용정보</a>
+
+                    <ul>
+                        <li>
+                            <a>채용공고</a>
+                        </li>
+                    </ul>
+
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- 모바일 탑바 끝 -->
+
+    <!-- 탑바 시작 -->
+    <div class="top-bar visible-on-md-up">
+        <div class="menu-box-1-sub-menu-bg"></div>
+        <div class="con height-100p flex flex-jc-sb">
+            <a href="#" class="logo flex flex-ai-c">
+                <img src="./img/bi.png" alt="">
+            </a>
+
+            <nav class="menu-box-1">
+                <ul class="flex height-100p">
+                    <li>
+                        <a class="flex flex-ai-c height-100p">회사소개</a>
+                        <ul>
+                            <li>
+                                <a>
+                                    회사개요</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="flex flex-ai-c height-100p">비즈니스</a>
+                        <ul>
+                            <li>
+                                <a>
+                                    개인금융 서비스</a>
+                            </li>
+                            <li>
+                                <a>기업금융 서비스</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="flex flex-ai-c height-100p">경영정보</a>
+                        <ul>
+                            <li>
+                                <a>정기보고서</a>
+                            </li>
+                            <li>
+                                <a>공시정보</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="flex flex-ai-c height-100p">고객센터</a>
+                        <ul>
+                            <li>
+                                <a>소비자보호포털</a>
+                            </li>
+                            <li>
+                                <a>계좌개설안내</a>
+                            </li>
+                            <li>
+                                <a>예탁금이용안내</a>
+                            </li>
+                            <li>
+                                <a>기타업무안내</a>
+                            </li>
+                            <li>
+                                <a>고객유의사항</a>
+                            </li>
+                            <li>
+                                <a>약관/서식</a>
+                            </li>
+                            <li>
+                                <a>상품공지</a>
+                            </li>
+                            <li>
+                                <a>공지사항</a>
+                            </li>
+                            <li>
+                                <a>FAQ</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <a class="flex flex-ai-c height-100p">채용정보</a>
+
+                        <ul>
+                            <li>
+                                <a>채용공고</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- 탑바 끝 -->
+
+    <!-- 상단배너박스 시작 -->
+    <div class="top-banner-box active-on-visible">
+        <div class="txt-box-group">
+            <div class="txt-box-1">
+                <h1>카카오페이증권</h1>
+                <h2>플랫폼을 통한 새로운 투자문화를 만듭니다.</h2>
+            </div>
+
+            <div class="txt-box-2">
+                <span>KAKAOPAY</span><br>
+                <span>SECURITIES</span>
+            </div>
+        </div>
+
+        <div class="img-box">
+            <img src="./img/main-visual01.jpg" alt="">
+        </div>
+    </div>
+    <!-- 상단배너박스 끝 -->
+
+
+    <!-- 회사소개배너박스 시작 -->
+    <div class="company-info-banner-box active-on-visible">
+        <div class="con flex flex-jc-sb">
+            <div class="txt-box flex flex-ai-c">
+                <div>
+                    <h1 class="nowrap">
+                        마음 놓고 투자하다
+                    </h1>
+                    <div class="des nowrap">
+                        누구든지 정보나 자산 규모에 따른 차별 없이<br>
+                        편리하고 안전하게 자산을 관리할 수 있도록<br>
+                        플랫폼을 통한 새로운 투자 문화를 만들어 갑니다.
+                    </div>
+                    <div class="btn-box">
+                        <a href="#" class="btn-go-to-company-info">회사소개</a>
+                    </div>
+                </div>
+            </div>
+            <div class="img-box">
+                <img src="./img/main-hand.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 회사소개배너박스 끝 -->
+
+
+    <!-- 인재모집배너박스 시작 -->
+    <div class="recruit-banner-box active-on-visible relative">
+        <div class="txt-box absolute-middle absolute-center text-align-center">
+            <div class="title">카카오페이증권 <strong>인재모집</strong></div>
+            <a href="#" class="btn-go-recruit">채용 정보</a>
+        </div>
+    </div>
+
+    <div class="footer visible-on-md-up">
+        <div class="con">
+            <div class="footer-box-1">
+                <ul class="row">
+                    <li class="cell"><a href="#" class="block">이용약관</a></li>
+                    <li class="cell"><a href="#" class="block">보호금융상품등록부</a></li>
+                    <li class="cell"><a href="#" class="block">개인정보취급처리방침</a></li>
+                    <li class="cell"><a href="#" class="block">고객권리안내문</a></li>
+                    <li class="cell"><a href="#" class="block">신용정보 활용체제 공시</a></li>
+                </ul>
+            </div>
+            <div class="footer-box-2">
+                <img src="./img/bi-footer.png" alt="" class="img-box">
+            </div>
+            <div class="footer-box-3 row">
+                <div class="txt-box-1 cell">
+                    <p>경기도 성남시 분당구 판교역로 146번길 20 Office H 12층 <br>
+                        강남오피스: 서울시 강남구 테해란로 512 신안빌딩 3층<br>
+                        여의도오피스: 서울시 영등포구 의사당대로1길 34
+                    </p>
+                </div>
+                <div class="txt-box-2 cell">
+                    <p>고객센터: 1600-8515</p>
+                    <span>© 2020 Copyright kakaopay securities corp.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer visible-on-sm-down">
+        <div class="con txt-box">
+            <div class="footer-box-1">
+                <ul>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">보호금융상품등록부</a></li>
+                    <li><a href="#">개인정보취급처리안내문</a></li>
+                    <li><a href="#">고객권리안내문</a></li>
+                    <li><a href="#">신용정보 활용체제 공시</a></li>
+                </ul>
+            </div>
+            <div class="footer-box-2">
+                <a href="#">
+                    <img src="./img/bi-footer.png" alt="">
+                </a>
+            </div>
+            <div class="footer-box-3">
+                <p>경기도 성남시 분당구 판교역로 146번길 20 Office H 12층 <br>
+                    강남오피스: 서울시 강남구 테해란로 512 신안빌딩 3층<br>
+                    여의도오피스: 서울시 영등포구 의사당대로1길 34<br>
+                    고객센터: 1600-8515
+                </p>
+                <span>
+                    © 2020 Copyright kakaopay securities corp.</span>
+            </div>
+        </div>
+    </div>
+    <!-- 인재모집배너박스 끝 -->
+
+    <script src=./index.js></script>
+</body>
+
+</html>
